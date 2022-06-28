@@ -28,7 +28,7 @@ def jogar_forca():
             for x in palavraSortida[posicao]:
                 if(chute.lower() == x): #valida se existe a letra digitada mesmo sendo maiuscula
                     lista[index] = chute #coloca a letra achada na posição certa
-                    acerto+=1
+                    acerto+=1 #soma os acertos
                 index += 1
         else:
              errou+=1
